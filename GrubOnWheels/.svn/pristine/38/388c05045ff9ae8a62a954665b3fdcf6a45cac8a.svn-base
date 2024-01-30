@@ -1,0 +1,84 @@
+package servlet;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import model.ChatMessage;
+import model.Restaurant;
+import model.User;
+
+@WebServlet("/UserChat")
+public class UserChat extends HttpServlet{
+
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Map<String, List<ChatMessage>> userChatHistories = new HashMap<>();
+	private Map<String, Restaurant> restaurants = new HashMap<>();
+
+	    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	            throws ServletException, IOException {
+	        HttpSession session = request.getSession();
+	        User user = (User) session.getAttribute("user");
+	        String restaurant = (String) session.getAttribute("restid");
+	        String city = (String) session.getAttribute("cityOfRest");
+
+	        List<ChatMessage> chatHistory = new ArrayList<ChatMessage>();
+	        chatHistory = userChatHistories.get(getChatId(user, restaurant));
+	        if (chatHistory == null) {
+	            chatHistory = new ArrayList<>();
+	            userChatHistories.put(getChatId(user, restaurant), chatHistory);
+	        }
+	        
+	        restaurants = (Map<String, Restaurant>) getServletContext().getAttribute("restaurantsMap");
+	        Restaurant restaurant2 = restaurants.get(restaurant);
+	        if(restaurant2 != null) {
+	        	restaurant2.addUser(user.getUserName());
+	        }
+
+	        request.setAttribute("chatHistory", chatHistory);
+	        request.setAttribute("user", user);
+	        request.setAttribute("restaurant", restaurant2);
+	        session.setAttribute("chatHistory", chatHistory);
+	        session.setAttribute("interactedUser", restaurant2.getInteractedUsers());
+	        session.setAttribute("userChatHistories", userChatHistories);
+
+	        //response.sendRedirect("restaurantMenu.jsp?id="+restaurant+"&city="+city);
+	        request.getRequestDispatcher("restaurantMenu.jsp?id="+restaurant+"&city="+city).forward(request, response);
+	    }
+
+	    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	            throws ServletException, IOException {
+	    	HttpSession session = request.getSession();
+	        String sender = request.getParameter("sender");
+	        String message = request.getParameter("message");
+	        User user = (User) session.getAttribute("user");
+	        String restaurant = (String) session.getAttribute("restid");
+
+	        List<ChatMessage> chatHistory = new ArrayList<ChatMessage>();
+	        chatHistory = userChatHistories.get(getChatId(user, restaurant));
+	        if (chatHistory == null) {
+	            chatHistory = new ArrayList<>();
+	            userChatHistories.put(getChatId(user, restaurant), chatHistory);
+	        }
+
+	        chatHistory.add(new ChatMessage(sender, message));
+	        doGet(request, response);
+	    }
+
+	    private String getChatId(User user, String restaurant) {
+	        return user.getUserID() + "_" + restaurant;
+	    }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/commons-codec-1.16.0-bin/commons-codec-1.16.0/commons-codec-1.16.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/commons-codec-1.16.0-bin/commons-codec-1.16.0/commons-codec-1.16.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/commons-codec-1.16.0-bin/commons-codec-1.16.0/commons-codec-1.16.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/commons-codec-1.16.0-bin/commons-codec-1.16.0/commons-codec-1.16.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/commons-codec-1.16.0-bin/commons-codec-1.16.0/commons-codec-1.16.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/servlet-api.jar/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/apache-tomcat-9.0.76/apache-tomcat-9.0.76/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (1)/jstl-impl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (1)/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files/json-20230618.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (2)/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (2)/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (2)/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (2)/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/stripe-java-22.31.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jbcrypt-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/twilio-10.0.0-rc.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jackson-databind-2.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jackson-core-2.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jackson-annotations-2.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jackson-dataformat-xml-2.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jackson-datatype-jsr310-2.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jjwt-api-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jjwt-impl-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/jjwt-jackson-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/stax2-api-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/roshi/Downloads/jar_files (3)/woodstox-core-6.4.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
